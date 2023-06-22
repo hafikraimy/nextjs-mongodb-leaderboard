@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+![image](https://github.com/hafikraimy/nextjs-mongodb-leaderboard/assets/83526609/2e1ab97c-fda0-40bf-8743-fa330ce0b2d4)
+
+
+
 ## Getting Started
 
 First, run the development server:
