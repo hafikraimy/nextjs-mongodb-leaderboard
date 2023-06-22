@@ -67,11 +67,8 @@ const Table = ({ tData, tHeader, toggleForm, populateEntries, deleteEntries, sho
                     {...column.getHeaderProps(column.getSortByToggleProps())}
                   >
                     <div className='flex justify-center'>
-                      {column.render('Header')}
+                      {column.render('Header')} {column.isSorted ? (column.isSortedDesc ? '▼' : '▲') : ''}
                     </div>
-                    <span>
-                      {column.isSorted ? (column.isSortedDesc ? '▼' : '▲') : ''}
-                    </span>
                   </th>
                 ))}
               </tr>
